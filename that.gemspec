@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = That::VERSION
   s.authors     = ["Daniel Hengeveld"]
   s.email       = ["danielwh@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/thedaniel/that"
   s.summary     = "ActiveRecord console findey-helpey guy"
   s.description = <<-EOS
   Adds a global method `that`, used to search across relevant fields for all

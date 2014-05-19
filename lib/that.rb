@@ -17,7 +17,7 @@ module That
     results = []
     # Query everything!
     models.each do |model|
-      keys = model.respond_to?(:to_dat) ? model.to_dat : DEFAULT_TO_DAT_KEYS
+      keys = model.respond_to?(:to_that) ? model.to_that : DEFAULT_TO_THAT_KEYS
       keys.each do |key|
         results += model.where(key => query) if model.column_names.include?(key.to_s)
       end
