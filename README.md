@@ -3,6 +3,11 @@ THAT
 
 *The Rails console all-purpose thing finding machine.*
 
+The GitHub Rails app has a nice helper method in the console called `dat` that gets
+you the right thing from an assortment of models based on a string. This is something
+similar intended for generic use (not based on the same implementation at all,
+i just wanted to be able to type `dat :thedaniel` in all my Rails apps).
+
 Searches all AR models in a Rails app for matches to a string. Checks [DEFAULT_TO_THAT_KEYS](https://github.com/thedaniel/that/blob/master/lib/that.rb#L2)
 unless the model has a `:to_that` class method that returns an array of symbols to check against.
 
