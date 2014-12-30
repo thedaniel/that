@@ -24,3 +24,11 @@ irb(main):001:0> that 'thedaniel'
 ```
 
 Call `That.activate` to monkey patch Object and make it work.
+
+I personally use this `.irbrc`:
+
+```ruby
+if defined?(Rails) && defined?(That)
+  That.activate
+end
+```
