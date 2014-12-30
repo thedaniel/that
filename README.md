@@ -23,4 +23,4 @@ irb(main):001:0> that 'thedaniel'
 => #<User id: 167035, login: "thedaniel">
 ```
 
-You should probably only bundle this as a development gem.
+Call `That.activate` to monkey patch Object and make it work.
